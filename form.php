@@ -1,6 +1,6 @@
 <?php
 error_reporting(-1);
-ini_get('display_errors', 'on');
+ini_set('display_errors', 'on');
 
 // h()関数の定義
 function h(string $s): string
